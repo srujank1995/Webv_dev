@@ -1,0 +1,12 @@
+html{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-style: unset;
+}
+body{
+    background-color: #91bee8;
+    background-image: -moz-element();
+    background-position: 30%;
+    backface-visibility: hidden;
+}
