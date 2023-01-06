@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	
+	<head>
+	
+		<body>
+		<link rel="stylesheet" href="main.css" value="text/css"
+		<title>The Survey</title>
+			<h1>This is sample statement<h1>
+			<h2>This is sample statement<h2>
+			<h3>This is sample statement<h3>
+			<h4>This is sample statement<h4>
+			<h5>This is sample statement<h5>
+			<hr><hr>
+			<abbr	title="The Survey Form"> <a href="https://www.google.com" target="_blank"><center><h1>The Survey Form</h1></center></a></abbr>
+			<hr><hr>
+			<h2>Follow up Survey</h2>
+			<br>
+			<form action="zyz.php" method="post">
+				<table>
+					<tr>
+					
+						<th><img src="logo.png" alt="Error 403" width="30px" height="45px"></th>
+						<th><h1>Survey Form</h1></th>
+					</tr>
+					</tr>
+				</table>
+				<label>First name:</label> <input type="text" name="fname" maxlength="10" placeholder="First_Name" autofocus="ON"><br><br>
+				<label>Last name:</label> <input type="text" name="lname" maxlength="10" placeholder="Last_Name"> <br><br>
+				<label>Address:</label> <input type="text" name="add" width="20" height="30" maxlength="15" placeholder="Address"> <br><br>
+				<label>DOB:</label> <input type="date" name="dob"> <br><br>
+				<table>
+						<tr>
+							<th><h3>Qualification</h3></th>
+							<th><h3>Language Known</h3></th>
+							<th>	Input</th>
+							<th>function</th>
+						</tr>
+						<tr>
+							<td><input type="radio" name="rad" >BTech</td>
+							<td><input type="checkbox" name="ch" >Java</td></th>
+							<td>Normal</td>
+							<td>Normal Text</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="rad" >B.E</td>  
+							<td><input type="checkbox" name="ch" >Python</td></th>
+							<td>Bold</td>
+							<td><b>Normal Text</b></td>
+							</tr>
+						<tr>
+							<td><input type="radio" name="rad" >MSC</td>
+							<td><input type="checkbox" name="ch" >Ruby</td></th>
+							<td>Italics</td>
+							<td><i>Normal Text</i></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="rad" >BSC</td> 
+							<td><input type="checkbox" name="ch" >.Net</td></th>
+							<td>Underline</td>
+							<td><u>Normal Text</u></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="rad" >B.Comm</td> 
+							<td><input type="checkbox" name="ch" >Java script</td></th>
+							<td>Delete</td>
+							<td><del>Normal Text</del></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="rad" >others</td></th>
+							<td><input type="checkbox" name="ch" >others</td></th>
+							<td>Higlight</td>
+							<td><mark>Normal Text</mark></td>
+						</tr>
+							<td><input type="text"  name="oth" placeholder="Qualification"></td>
+							<td><input type="text"  name="oth" placeholder="language"></td>
+						</tr>
+				</table><br>
+			
+				<label>language:</label><br>
+				<input list="xyz" id="browser" name="browser">
+					<datalist id="xyz">
+						<option value="Java">
+						<option value="python">
+						<option value="C++/C">
+						<option value="Ruby">
+						<option value="Java Script">
+					</datalist><br>
+				<label for="lang">choose browser:</label><br>	
+					<select id="lang">
+						<option value="opera">Opera</option>
+						<option value="Morzilla">Morzilla</option>
+						<option value="Chrome">Chrome</option>
+						<option value="Explorer">Explorer</option>
+						<option value="Brave">Brave</option>
+						<option value="safari">safari</option>
+						</select><br><br>
+				<label> Time:</label><br>	
+				<input type="datetime-local" name="dt" ><br><br>
+				
+				<input type="submit" name="sub" value="Submit"><br><br>
+				<input type="reset" name="res" value="Reset"><br><br>
+			
+			</form>
+		</body>
+	</head>
+</html>
